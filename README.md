@@ -1,4 +1,0 @@
-SG
-==
-
-Samurai Gathering Stuff
