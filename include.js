@@ -548,14 +548,7 @@ function global_ajax() {
 							$(alert("<div style='width: 100%; text-align: center;'>You have gone inactive<br><a href='login.php'>Go Back To Login Page</a></div>")).on('dialogclose', function() {
 								delete window.ajaxErrorShowing;
 								window.location = "login.php";
-								}).dialog("option", "title", "You Have Gone Inactive").dialog("option", "buttons", {
-								"Sign Back In":function() {
-									$("#form-relog-submit").trigger("click");
-									},
-								"Login Page":function() {
-									$(this).dialog("close");
-									}
-								});
+								}).dialog("option", "title", "You Have Gone Inactive");
 									
 							$("#login-pass[name=logpass]").trigger("focus").on("keyup", function(e) {
 								e = e||{}; e.which = e.which||0;
