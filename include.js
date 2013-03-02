@@ -1050,7 +1050,7 @@ function global_ajax() {
 						var will = parseInt(_2.y); var will_max = parseInt(_2.z);
 						if ($("#head-will-bar").exists()) {
 							$("#head-will-bar").progressbar('option', 'value', will).progressbar('option', 'max', will_max);
-							$("#head-will-bar + .pro-title").prop("title", "Will: "+will+"/"+will_max+";<br>It will cost you 20 rice to refill your will!");
+							$("#head-will-bar + .pro-title").prop("title", "Will: "+will+"/"+will_max+";<br>Click to refill your will; This costs 20 rice!");
 							}
 							
 						if ($("#head-will-bar-percent").exists()) {
