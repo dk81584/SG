@@ -1032,7 +1032,7 @@ function global_ajax() {
 						var energy = parseInt(_2.w); var energy_max = parseInt(_2.x);
 						if ($("#head-energy-bar").exists()) {
 							$("#head-energy-bar").progressbar('option', 'value', energy).progressbar('option', 'max', energy_max);
-							$("#head-energy-bar + .pro-title").prop("title", "Energy: "+energy+"/"+energy_max);
+							$("#head-energy-bar + .pro-title").prop("title", "Energy: "+energy+"/"+energy_max+"<br>Click to refill your energy; This costs 10 gold coins!");
 							}
 							
 						if ($("#head-energy-bar-percent").exists()) {
