@@ -1,0 +1,21 @@
+::-webkit-scrollbar { width: 16px; height: 16px; box-shadow: 0px 0px 12px #000, 0px 0px 12px #000; }
+
+::-webkit-scrollbar-button:start:decrement { box-shadow: 0px 0px 12px #000, 0px 0px 12px #000; -webkit-appearance: none; -moz-appearance: none; cursor: pointer !important; height: 16px; background-position: center; background-image: url(default/scroll-up.png); background-repeat: no-repeat; border-top-left-radius: 8px; border-top-right-radius: 8px; background-color: #111; border-bottom: 0px solid #000 !important; border: 1px solid #555; margin-top: 1px; }
+::-webkit-scrollbar-button:start:decrement:hover { cursor: pointer !important; height: 16px; background-position: center; background-image: url(default/scroll-up.png); background-repeat: no-repeat; border-top-left-radius: 8px; border-top-right-radius: 8px; background-color: #222; border-bottom: 0px solid #000 !important; border: 1px solid #757575; margin-top: 1px; }
+::-webkit-scrollbar-button:start:decrement:active { cursor: pointer !important; height: 16px; background-position: center; background-image: url(default/scroll-up.png); background-repeat: no-repeat; border-top-left-radius: 8px; border-top-right-radius: 8px; background-color: #252525; border-bottom: 0px solid #000 !important; border: 1px solid #959595; margin-top: 1px; }
+
+::-webkit-scrollbar-button:end:increment { box-shadow: 0px 0px 12px #000, 0px 0px 12px #000; -webkit-appearance: none; -moz-appearance: none; cursor: pointer !important; height: 16px; border-top: 0px solid #000 !important; background-position: center; background-image: url(default/scroll-down.png); background-repeat: no-repeat; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background-color: #111; border: 1px solid #555; margin-bottom: -1px; }
+::-webkit-scrollbar-button:end:increment:hover { cursor: pointer !important; height: 16px; border-top: 0px solid #000 !important; background-position: center; background-image: url(default/scroll-down.png); background-repeat: no-repeat; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background-color: #222; border: 1px solid #757575; margin-bottom: -1px; }
+::-webkit-scrollbar-button:end:increment:active { cursor: pointer !important; height: 16px; border-top: 0px solid #000 !important; background-position: center; background-image: url(default/scroll-down.png); background-repeat: no-repeat; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background-color: #252525; border: 1px solid #959595; margin-bottom: -1px; }
+
+::-webkit-scrollbar-track-piece { background-color: #323232; border: 1px solid #757575; }
+::-webkit-scrollbar-track-piece:hover { background-color: #454545; border: 1px solid #757575; }
+::-webkit-scrollbar-track-piece:active { background-color: #050505; border: 1px solid #000; }
+
+::-webkit-scrollbar-thumb:vertical { height: 16px; background-color: #111; border-top: 0px !important; border-bottom: 0px !important; border: 1px solid #555; }
+::-webkit-scrollbar-thumb:vertical:hover { height: 16px; background-color: #222; border-top: 0px !important; border-bottom: 0px !important; border: 1px solid #757575; }
+::-webkit-scrollbar-thumb:vertical:active { height: 16px; background-color: #252525; border-top: 0px !important; border-bottom: 0px !important; border: 1px solid #000; }
+
+::-webkit-scrollbar-thumb:horizontal { width: 16px; background-color: #111; border-left: 0px !important; border-right: 0px !important; border: 1px solid #555; }
+::-webkit-scrollbar-thumb:horizontal:hover { width: 16px; background-color: #222; border-left: 0px !important; border-right: 0px !important; border: 1px solid #757575; }
+::-webkit-scrollbar-thumb:horizontal:active { width: 16px; background-color: #252525; border-left: 0px !important; border-right: 0px !important; border: 1px solid #000; }
